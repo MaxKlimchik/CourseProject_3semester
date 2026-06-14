@@ -36,4 +36,7 @@ int main()
         chrono::duration<double> diff = end - begin;
         wcout << names[(int)type] << L": " << chrono::duration_cast<chrono::milliseconds>(diff).count() << L"ms" << endl;
     }
+
+    wcout << L"Нажмите клавишу, чтобы выйти...";
+    getchar();
 }

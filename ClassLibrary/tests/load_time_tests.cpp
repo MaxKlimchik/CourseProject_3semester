@@ -31,4 +31,7 @@ int main()
         wcout << names[(int)type] << L": " << chrono::duration_cast<chrono::milliseconds>(diff).count() << L"ms" << endl;
     }
     delete service;
+    
+    wcout << L"Нажмите клавишу, чтобы выйти...";
+    getchar();
 }
