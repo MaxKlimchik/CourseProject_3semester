@@ -1,0 +1,80 @@
+[
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\Service.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\Service.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/Service.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/Service.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\NearestPrime.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\NearestPrime.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/NearestPrime.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/NearestPrime.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\SC_SimpleFactory.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\SC_SimpleFactory.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_SimpleFactory.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/SC_SimpleFactory.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\SC_Bloom_filter.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\SC_Bloom_filter.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_Bloom_filter.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/SC_Bloom_filter.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\SC_HT_Chain.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\SC_HT_Chain.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_HT_Chain.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/SC_HT_Chain.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\SC_HT_DoubleHash.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\SC_HT_DoubleHash.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_HT_DoubleHash.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/SC_HT_DoubleHash.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\SC_HT_Linear.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\SC_HT_Linear.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_HT_Linear.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/SC_HT_Linear.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\MurmurHash3.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\MurmurHash3.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/MurmurHash3.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/MurmurHash3.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\Dictionary_RU.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\Dictionary_RU.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/Dictionary_RU.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/Dictionary_RU.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSPELLCHECK_LIB_EXPORTS -Dspellcheck_lib_EXPORTS @CMakeFiles/spellcheck_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\spellcheck_lib.dir\\libs\\hash_function.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\libs\\hash_function.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/libs/hash_function.cpp",
+  "output": "CMakeFiles/spellcheck_lib.dir/libs/hash_function.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/console_version_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\console_version_app.dir\\tests\\console_version_app.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\tests\\console_version_app.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/tests/console_version_app.cpp",
+  "output": "CMakeFiles/console_version_app.dir/tests/console_version_app.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/load_time_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\load_time_tests.dir\\tests\\load_time_tests.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\tests\\load_time_tests.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/tests/load_time_tests.cpp",
+  "output": "CMakeFiles/load_time_tests.dir/tests/load_time_tests.cpp.obj"
+},
+{
+  "directory": "F:/MAKS/SpellCheckService/ClassLibrary/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/check_dict_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\check_dict_tests.dir\\tests\\check_dict_tests.cpp.obj -c F:\\MAKS\\SpellCheckService\\ClassLibrary\\tests\\check_dict_tests.cpp",
+  "file": "F:/MAKS/SpellCheckService/ClassLibrary/tests/check_dict_tests.cpp",
+  "output": "CMakeFiles/check_dict_tests.dir/tests/check_dict_tests.cpp.obj"
+}
+]

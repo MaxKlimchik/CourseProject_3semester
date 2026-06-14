@@ -1,0 +1,3 @@
+C:\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\spellcheck_lib.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\spellcheck_lib.dir/objects.a @CMakeFiles\spellcheck_lib.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -shared -o libspellcheck_lib.dll -Wl,--out-implib,libspellcheck_lib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\spellcheck_lib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\spellcheck_lib.dir\linkLibs.rsp

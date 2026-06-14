@@ -1,0 +1,6 @@
+F:/MAKS/SpellCheckService/ClassLibrary/build/CMakeFiles/spellcheck_lib.dir
+F:/MAKS/SpellCheckService/ClassLibrary/build/CMakeFiles/console_version_app.dir
+F:/MAKS/SpellCheckService/ClassLibrary/build/CMakeFiles/load_time_tests.dir
+F:/MAKS/SpellCheckService/ClassLibrary/build/CMakeFiles/check_dict_tests.dir
+F:/MAKS/SpellCheckService/ClassLibrary/build/CMakeFiles/edit_cache.dir
+F:/MAKS/SpellCheckService/ClassLibrary/build/CMakeFiles/rebuild_cache.dir

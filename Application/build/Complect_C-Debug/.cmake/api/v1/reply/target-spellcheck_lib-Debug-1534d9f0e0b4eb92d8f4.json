@@ -1,0 +1,278 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libspellcheck_lib.dll"
+		},
+		{
+			"path" : "libspellcheck_lib.dll.a"
+		},
+		{
+			"path" : "libspellcheck_lib.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_definitions",
+			"project"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"build/Complect_C-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 3
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "QT_QML_DEBUG"
+				},
+				{
+					"define" : "spellcheck_lib_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/spellcheck_lib_autogen/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "spellcheck_lib_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "spellcheck_lib_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "spellcheck_lib::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-shared",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "spellcheck_lib",
+	"nameOnDisk" : "libspellcheck_lib.dll",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "spellcheck_lib_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "spellcheck_lib_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				11,
+				12
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Complect_C-Debug/spellcheck_lib_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/Service.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/NearestPrime.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_SimpleFactory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_Bloom_filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_HT_Chain.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_HT_DoubleHash.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/SC_HT_Linear.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/MurmurHash3.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/Dictionary_RU.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/MAKS/SpellCheckService/ClassLibrary/libs/hash_function.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Complect_C-Debug/spellcheck_lib_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Complect_C-Debug/spellcheck_lib_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Complect_C-Debug/spellcheck_lib_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

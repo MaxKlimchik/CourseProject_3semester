@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_SpellCheckService_FILE F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/SpellCheckService.exe)
+set(__QT_DEPLOY_TARGET_SpellCheckService_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_SpellCheckService_RUNTIME_DLLS C:/msys64/ucrt64/bin/Qt6Widgets.dll;F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/libspellcheck_lib.dll;C:/msys64/ucrt64/bin/Qt6Gui.dll;C:/msys64/ucrt64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_spellcheck_lib_FILE F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/libspellcheck_lib.dll)
+set(__QT_DEPLOY_TARGET_spellcheck_lib_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_spellcheck_lib_RUNTIME_DLLS )

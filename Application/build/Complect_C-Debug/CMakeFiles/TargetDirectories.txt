@@ -1,0 +1,12 @@
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/SpellCheckService.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/spellcheck_lib.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/edit_cache.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/rebuild_cache.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/list_install_components.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/install.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/install/local.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/install/strip.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/SpellCheckService_autogen_timestamp_deps.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/SpellCheckService_autogen.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/spellcheck_lib_autogen_timestamp_deps.dir
+F:/MAKS/SpellCheckService/Application/build/Complect_C-Debug/CMakeFiles/spellcheck_lib_autogen.dir
