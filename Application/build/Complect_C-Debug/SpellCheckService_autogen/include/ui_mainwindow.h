@@ -71,14 +71,18 @@ public:
         TextField = new QTextEdit(centralwidget);
         TextField->setObjectName("TextField");
         TextField->setGeometry(QRect(10, 70, 721, 501));
+        QFont font;
+        font.setPointSize(11);
+        TextField->setFont(font);
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
-        verticalLayoutWidget->setGeometry(QRect(740, 10, 315, 181));
+        verticalLayoutWidget->setGeometry(QRect(740, 10, 311, 181));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         Selector_label = new QLabel(verticalLayoutWidget);
         Selector_label->setObjectName("Selector_label");
+        Selector_label->setFont(font);
         Selector_label->setAcceptDrops(false);
         Selector_label->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
         Selector_label->setTextFormat(Qt::TextFormat::AutoText);
@@ -89,40 +93,47 @@ public:
 
         Selector_HTChain = new QRadioButton(verticalLayoutWidget);
         Selector_HTChain->setObjectName("Selector_HTChain");
+        Selector_HTChain->setFont(font);
 
         verticalLayout->addWidget(Selector_HTChain);
 
         Selector_HTDHash = new QRadioButton(verticalLayoutWidget);
         Selector_HTDHash->setObjectName("Selector_HTDHash");
+        Selector_HTDHash->setFont(font);
 
         verticalLayout->addWidget(Selector_HTDHash);
 
         Selector_HTLinear = new QRadioButton(verticalLayoutWidget);
         Selector_HTLinear->setObjectName("Selector_HTLinear");
+        Selector_HTLinear->setFont(font);
 
         verticalLayout->addWidget(Selector_HTLinear);
 
         Selector_BF = new QRadioButton(verticalLayoutWidget);
         Selector_BF->setObjectName("Selector_BF");
+        Selector_BF->setFont(font);
 
         verticalLayout->addWidget(Selector_BF);
 
         Button_CheckOrpho = new QPushButton(centralwidget);
         Button_CheckOrpho->setObjectName("Button_CheckOrpho");
         Button_CheckOrpho->setGeometry(QRect(740, 200, 311, 49));
+        Button_CheckOrpho->setFont(font);
         horizontalLayoutWidget = new QWidget(centralwidget);
         horizontalLayoutWidget->setObjectName("horizontalLayoutWidget");
-        horizontalLayoutWidget->setGeometry(QRect(10, 10, 261, 51));
+        horizontalLayoutWidget->setGeometry(QRect(10, 10, 261, 59));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         Button_OpenTxt = new QPushButton(horizontalLayoutWidget);
         Button_OpenTxt->setObjectName("Button_OpenTxt");
+        Button_OpenTxt->setFont(font);
 
         horizontalLayout->addWidget(Button_OpenTxt);
 
         Button_SaveTxt = new QPushButton(horizontalLayoutWidget);
         Button_SaveTxt->setObjectName("Button_SaveTxt");
+        Button_SaveTxt->setFont(font);
 
         horizontalLayout->addWidget(Button_SaveTxt);
 
@@ -137,6 +148,7 @@ public:
         Label_LastOrphograhyCheckStatistic = new QLabel(verticalLayoutWidget_2);
         Label_LastOrphograhyCheckStatistic->setObjectName("Label_LastOrphograhyCheckStatistic");
         Label_LastOrphograhyCheckStatistic->setEnabled(false);
+        Label_LastOrphograhyCheckStatistic->setFont(font);
         Label_LastOrphograhyCheckStatistic->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         Layout_Statistic->addWidget(Label_LastOrphograhyCheckStatistic);
@@ -145,6 +157,7 @@ public:
         Label_SpellCheckTime->setObjectName("Label_SpellCheckTime");
         Label_SpellCheckTime->setEnabled(false);
         Label_SpellCheckTime->setMaximumSize(QSize(16777215, 24));
+        Label_SpellCheckTime->setFont(font);
 
         Layout_Statistic->addWidget(Label_SpellCheckTime);
 
@@ -152,6 +165,7 @@ public:
         Label_TotalWords->setObjectName("Label_TotalWords");
         Label_TotalWords->setEnabled(false);
         Label_TotalWords->setMaximumSize(QSize(16777215, 24));
+        Label_TotalWords->setFont(font);
 
         Layout_Statistic->addWidget(Label_TotalWords);
 
@@ -159,6 +173,7 @@ public:
         Label_MisspellWords->setObjectName("Label_MisspellWords");
         Label_MisspellWords->setEnabled(false);
         Label_MisspellWords->setMaximumSize(QSize(16777215, 24));
+        Label_MisspellWords->setFont(font);
 
         Layout_Statistic->addWidget(Label_MisspellWords);
 
@@ -173,6 +188,7 @@ public:
         Label_MisspellNavigation->setObjectName("Label_MisspellNavigation");
         Label_MisspellNavigation->setEnabled(false);
         Label_MisspellNavigation->setMinimumSize(QSize(0, 32));
+        Label_MisspellNavigation->setFont(font);
         Label_MisspellNavigation->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         Layout_Navigation->setWidget(0, QFormLayout::ItemRole::SpanningRole, Label_MisspellNavigation);
@@ -181,6 +197,7 @@ public:
         Label_CurrentMisspell->setObjectName("Label_CurrentMisspell");
         Label_CurrentMisspell->setEnabled(false);
         Label_CurrentMisspell->setMinimumSize(QSize(0, 32));
+        Label_CurrentMisspell->setFont(font);
 
         Layout_Navigation->setWidget(1, QFormLayout::ItemRole::SpanningRole, Label_CurrentMisspell);
 
@@ -188,6 +205,7 @@ public:
         Button_PrevMisspell->setObjectName("Button_PrevMisspell");
         Button_PrevMisspell->setEnabled(false);
         Button_PrevMisspell->setMinimumSize(QSize(151, 42));
+        Button_PrevMisspell->setFont(font);
 
         Layout_Navigation->setWidget(2, QFormLayout::ItemRole::LabelRole, Button_PrevMisspell);
 
@@ -195,6 +213,7 @@ public:
         Button_NextMisspell->setObjectName("Button_NextMisspell");
         Button_NextMisspell->setEnabled(false);
         Button_NextMisspell->setMinimumSize(QSize(131, 42));
+        Button_NextMisspell->setFont(font);
 
         Layout_Navigation->setWidget(2, QFormLayout::ItemRole::FieldRole, Button_NextMisspell);
 
@@ -202,6 +221,7 @@ public:
         Label_DictLoadTime->setObjectName("Label_DictLoadTime");
         Label_DictLoadTime->setEnabled(false);
         Label_DictLoadTime->setGeometry(QRect(740, 250, 311, 31));
+        Label_DictLoadTime->setFont(font);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");

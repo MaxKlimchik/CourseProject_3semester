@@ -38,9 +38,10 @@ void MainWindow::CheckOrphography()
     clearCharFormat.setUnderlineStyle(QTextCharFormat::NoUnderline);
     clearCursor.mergeCharFormat(clearCharFormat);
 
+    misspells.clear();
+    misspells.squeeze();
+    total_words = 0;
     QString text = ui->TextField->toPlainText();
-    if (text.isEmpty())
-        return;
 
     QRegularExpression regExpression("([А-Яа-яЁё]+)((-[А-Яа-яЁё]+)*)");
     QRegularExpressionMatchIterator it = regExpression.globalMatch(text);
@@ -49,9 +50,6 @@ void MainWindow::CheckOrphography()
     misspell.setUnderlineStyle(QTextCharFormat::WaveUnderline);
     misspell.setUnderlineColor(Qt::red);
 
-    misspells.clear();
-    misspells.squeeze();
-    total_words = 0;
     QTextCursor cursor(ui->TextField->document());
     while (it.hasNext())
     {
@@ -113,9 +111,6 @@ void MainWindow::CheckOrphography()
         ++total_words;
     }
 
-    QTextCursor resetCursor;
-    resetCursor.setPosition(baseCursor.position());
-    ui->TextField->setTextCursor(resetCursor);
     ui->TextField->document()->clearUndoRedoStacks();
 }
 
@@ -132,6 +127,12 @@ void MainWindow::MoveToCurrentMisspell()
 
         ui->TextField->setTextCursor(cursor);
         ui->TextField->ensureCursorVisible();
+    }
+    else
+    {
+        QTextCursor cursor(ui->TextField->document());
+        cursor.movePosition(QTextCursor::End);
+        ui->TextField->setTextCursor(cursor);
     }
 }
 
@@ -193,6 +194,7 @@ void MainWindow::OnCheckButtonClick()
     current_misspell = 0;
     MoveToCurrentMisspell();
     ActualizeNavigation();
+    ui->TextField->setFocus();
 }
 
 void MainWindow::OnOpenTxtClick()
@@ -210,7 +212,7 @@ void MainWindow::OnOpenTxtClick()
         return;
     }
     QTextStream t_stream(&file);
-    t_stream.setEncoding(QStringConverter::Encoding::System);
+    t_stream.setEncoding(QStringConverter::Encoding::Utf8);
     ui->TextField->setPlainText(t_stream.readAll());
     file.close();
 }
@@ -234,7 +236,7 @@ void MainWindow::OnSaveTxtClick()
         return;
     }
     QTextStream t_stream(&file);
-    t_stream.setEncoding(QStringConverter::Encoding::System);
+    t_stream.setEncoding(QStringConverter::Encoding::Utf8);
     t_stream << ui->TextField->toPlainText();
     file.close();
 }
